@@ -5,6 +5,7 @@ import android.app.AlertDialog;
 import android.content.Context;
 import android.os.Build;
 
+
 final class Utils {
 
     private Utils() {
@@ -19,7 +20,7 @@ final class Utils {
     }
 
     static int getDialogTheme() {
-        return isLollipop() ? android.R.style.Theme_DeviceDefault_Dialog_Alert : 0;
+        return isLollipop() ? android.R.style.Theme_DeviceDefault_Light_Dialog_Alert : 0;
     }
 
     @SuppressLint("NewApi")
